@@ -1,6 +1,6 @@
-"use client";
+ "use client";
 import React from "react";
-
+import Link from "next/link";
 const About = () => {
  
 
@@ -30,11 +30,12 @@ const About = () => {
 
           {/* Button */}
           <div className="text-center mt-6">
-            <button
+           <Link href="/About"> <button
               className="px-6 py-3 text-lg bg-yellow-400 rounded-lg shadow-md hover:bg-yellow-500 transition duration-300 text-white"
             >
               Find out now
             </button>
+            </Link>
           </div>
         </div>
       </div>
