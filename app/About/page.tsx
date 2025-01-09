@@ -25,15 +25,7 @@ export default function About() {
           <br /> our clients get the very best result.
         </p>
 
-        <div className="my-12">
-          <Image
-            src="/assets/contact-hero-1024x525.jpg" 
-            alt="Nature"
-            width={1024} 
-            height={525} 
-            className="mx-auto rounded-lg shadow-lg"
-          />
-        </div>
+        
 
         <div className="flex flex-col md:flex-row justify-center items-start gap-8 mt-8">
           <div className="w-full md:w-1/2 text-center md:text-left">
